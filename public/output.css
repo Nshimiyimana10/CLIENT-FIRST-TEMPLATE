@@ -816,9 +816,16 @@ video {
   border-radius: 0.5rem;
 }
 
-.bg-blue-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(59 130 246 / var(--tw-bg-opacity));
+.border-r {
+  border-right-width: 1px;
+}
+
+.border-solid {
+  border-style: solid;
+}
+
+.border-\[hsla\(227\2c 24\%\2c 15\%\2c 1\)\] {
+  border-color: hsla(227,24%,15%,1);
 }
 
 .bg-slate-500 {
@@ -857,6 +864,10 @@ video {
 
 .bg-\[hsla\(231\2c 82\%\2c 93\%\2c 1\)\] {
   background-color: hsla(231,82%,93%,1);
+}
+
+.bg-\[hsla\(292\2c 55\%\2c 74\%\2c 0\.15\)\] {
+  background-color: hsla(292,55%,74%,0.15);
 }
 
 .from-sky-100 {
@@ -923,11 +934,6 @@ video {
   text-align: center;
 }
 
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
-}
-
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
@@ -936,6 +942,11 @@ video {
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 
 .text-xs {
@@ -967,4 +978,8 @@ video {
 
 .text-\[hsla\(194\2c 93\%\2c 60\%\2c 1\)\] {
   color: hsla(194,93%,60%,1);
+}
+
+.text-\[hsla\(0\2c 0\%\2c 0\%\2c 1\)\] {
+  color: hsla(0,0%,0%,1);
 }
