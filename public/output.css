@@ -642,6 +642,26 @@ video {
   margin-right: 18rem;
 }
 
+.ml-28 {
+  margin-left: 7rem;
+}
+
+.ml-40 {
+  margin-left: 10rem;
+}
+
+.ml-48 {
+  margin-left: 12rem;
+}
+
+.ml-44 {
+  margin-left: 11rem;
+}
+
+.ml-60 {
+  margin-left: 15rem;
+}
+
 .flex {
   display: flex;
 }
@@ -660,6 +680,22 @@ video {
 
 .h-screen {
   height: 100vh;
+}
+
+.h-60 {
+  height: 15rem;
+}
+
+.h-72 {
+  height: 18rem;
+}
+
+.h-64 {
+  height: 16rem;
+}
+
+.h-52 {
+  height: 13rem;
 }
 
 .w-72 {
@@ -688,6 +724,26 @@ video {
 
 .w-\[600px\] {
   width: 600px;
+}
+
+.w-60 {
+  width: 15rem;
+}
+
+.w-\[900px\] {
+  width: 900px;
+}
+
+.w-\[850px\] {
+  width: 850px;
+}
+
+.w-\[880px\] {
+  width: 880px;
+}
+
+.transform {
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .list-none {
@@ -732,6 +788,10 @@ video {
 
 .gap-28 {
   gap: 7rem;
+}
+
+.gap-3 {
+  gap: 0.75rem;
 }
 
 .space-x-4 > :not([hidden]) ~ :not([hidden]) {
