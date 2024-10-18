@@ -662,6 +662,46 @@ video {
   margin-left: 15rem;
 }
 
+.ml-5 {
+  margin-left: 1.25rem;
+}
+
+.ml-20 {
+  margin-left: 5rem;
+}
+
+.ml-16 {
+  margin-left: 4rem;
+}
+
+.ml-14 {
+  margin-left: 3.5rem;
+}
+
+.ml-12 {
+  margin-left: 3rem;
+}
+
+.ml-6 {
+  margin-left: 1.5rem;
+}
+
+.ml-8 {
+  margin-left: 2rem;
+}
+
+.ml-\[440px\] {
+  margin-left: 440px;
+}
+
+.ml-\[300px\] {
+  margin-left: 300px;
+}
+
+.mt-20 {
+  margin-top: 5rem;
+}
+
 .flex {
   display: flex;
 }
@@ -696,6 +736,14 @@ video {
 
 .h-52 {
   height: 13rem;
+}
+
+.h-5 {
+  height: 1.25rem;
+}
+
+.h-8 {
+  height: 2rem;
 }
 
 .w-72 {
@@ -740,6 +788,26 @@ video {
 
 .w-\[880px\] {
   width: 880px;
+}
+
+.w-10 {
+  width: 2.5rem;
+}
+
+.w-8 {
+  width: 2rem;
+}
+
+.w-\[250px\] {
+  width: 250px;
+}
+
+.w-\[280px\] {
+  width: 280px;
+}
+
+.w-\[270px\] {
+  width: 270px;
 }
 
 .transform {
@@ -816,6 +884,14 @@ video {
   border-radius: 0.5rem;
 }
 
+.rounded-full {
+  border-radius: 9999px;
+}
+
+.border-2 {
+  border-width: 2px;
+}
+
 .border-r {
   border-right-width: 1px;
 }
@@ -826,6 +902,20 @@ video {
 
 .border-\[hsla\(227\2c 24\%\2c 15\%\2c 1\)\] {
   border-color: hsla(227,24%,15%,1);
+}
+
+.border-\[hsla\(216\2c 80\%\2c 65\%\2c 0\.26\)\] {
+  border-color: hsla(216,80%,65%,0.26);
+}
+
+.border-green-300 {
+  --tw-border-opacity: 1;
+  border-color: rgb(134 239 172 / var(--tw-border-opacity));
+}
+
+.border-green-100 {
+  --tw-border-opacity: 1;
+  border-color: rgb(220 252 231 / var(--tw-border-opacity));
 }
 
 .bg-slate-500 {
@@ -868,6 +958,11 @@ video {
 
 .bg-\[hsla\(292\2c 55\%\2c 74\%\2c 0\.15\)\] {
   background-color: hsla(292,55%,74%,0.15);
+}
+
+.bg-blue-600 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(37 99 235 / var(--tw-bg-opacity));
 }
 
 .from-sky-100 {
@@ -959,6 +1054,10 @@ video {
   line-height: 1.75rem;
 }
 
+.text-\[8px\] {
+  font-size: 8px;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -978,6 +1077,11 @@ video {
 
 .text-\[hsla\(194\2c 93\%\2c 60\%\2c 1\)\] {
   color: hsla(194,93%,60%,1);
+}
+
+.text-\[hsla\(0\2c 0\%\2c 0\%\2c 1\)\] {
+  color: hsla(0,0%,0%,1);
+} color: hsla(194,93%,60%,1);
 }
 
 .text-\[hsla\(0\2c 0\%\2c 0\%\2c 1\)\] {
